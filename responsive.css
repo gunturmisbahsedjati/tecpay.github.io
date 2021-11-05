@@ -1,20 +1,18 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
   .header-left {
-    /*float: left;*/
     margin-left: 0px;
   }
   .banner {
     padding-left: 5%;
     padding-right: 5%;
   }
-  .lesson {
+  .benefit {
     width: 50%;
     margin-bottom: 50px;
   }
   .banner-col {
     width: 100%;
-    /*margin-bottom: 50px;*/
   }
 
   .top-wrapper{
@@ -33,7 +31,6 @@
   }
 
   .profile-col {
-    /*flex: 0 0 auto;*/
     padding-left: 10%;
     padding-top: 10px;
     width: 50%;
@@ -44,10 +41,9 @@
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
   .header-left {
-    /*float: left;*/
     margin-left: 0px;
   }
-  .lesson {
+  .benefit {
     width: 100%;
   }
 
@@ -77,12 +73,10 @@
     padding-top: 100px;
   }
   
-  /* Tambahkan CSS untuk header-right */
   .header-right{
     display:none;
   }
   
-  /* Tambahkan CSS untuk menu-icon */
   .menu-icon{
     display:block !important;
   }
@@ -102,7 +96,6 @@
   .profile-col {
     padding-left: 20%;
     padding-top: 10px;
-    /*flex: 0 0 auto;*/
     width: 100%;
   }
 }
